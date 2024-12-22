@@ -6,8 +6,6 @@
 --func:SetScale(xscale, yscale, "filename")
 --func:SetColor(r, g, b, "filename")
 
---local debug_counter = 0
-
 local mob_x = 0
 local mob_y = 0
 local mob_height = 0
@@ -16,19 +14,24 @@ local mob_in_counter = 0
 local mob_out_counter = 0
 
 local mob_state = 0
+local mob_image = "Mob.png"
 
 function mobIn()
     mob_state = 1
     mob_in_counter = 0
+    mob_image = "Mob.png"
 end
 
 function mobOut()
     mob_state = 2
     mob_out_counter = 0
+    mob_image = "Mob1.png"
 end
 
 function init()
     func:AddGraph("Mob.png")
+    func:AddGraph("Mob1.png")
+    func:AddGraph("Mob2.png")
     mob_height = func:GetTextureHeight("Mob.png")
 end
 
@@ -50,9 +53,6 @@ function update()
         mob_counter = 0
     end
 
-    
-
-
     if mob_state == 3 and gauge[0] < 100 then
         mobOut()
     end
@@ -72,6 +72,7 @@ function update()
         end
         
         mob_y = 1080 + (540 * (1.0 - math.sin(mob_in_counter * math.pi / 2)))
+        mob_image = "Mob.png"
 
     elseif mob_state == 2 then
 
@@ -81,15 +82,27 @@ function update()
         end
         
         mob_y = 1080 + (540 * (1 - math.cos(mob_out_counter * math.pi)))
+        mob_image = "Mob1.png"
 
     elseif mob_state == 3 then
+        local previous_mob_y = mob_y
         mob_y = 1080 + ((1.0 - math.sin(mob_counter * math.pi)) * 105)
+
+        -- Check if Mob2.png should be shown
+        if mob_y < previous_mob_y then
+            mob_image = "Mob2.png"
+            mob_y = mob_y - 50 -- Make it jump a bit higher
+        elseif mob_y > 1080 then
+            mob_image = "Mob1.png"
+        else
+            mob_image = "Mob.png"
+        end
     end
 end
 
 function draw()
     if mob_state == 0 then
     else
-        func:DrawGraph(mob_x, mob_y - mob_height, "Mob.png")
+        func:DrawGraph(mob_x, mob_y - mob_height, mob_image)
     end
 end
