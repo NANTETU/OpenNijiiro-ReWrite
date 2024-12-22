@@ -1,17 +1,16 @@
 # OpenNijiiro-ReWrite
 
 ## <ins>作成者のSNS</ins>
-[YouTube](YouTube.com/@なんてつ)
-
-[Twitter](Twitter.com/@NanTetu777)
+- YouTube : https://www.youtube.com/@なんてつ
+- Discord (日本語) : https://x.com/NanTetu777
 
 ## 目次
 
 1. [ソフトウェアについて](#ソフトウェアについて)
 2. [注意事項](#注意事項)
-3. [動画、配信等でのご利用について](#動画、配信等でのご利用について)
-4. [改造・再配布(二次配布)を行う場合について](#改造・再配布(二次配布)を行う場合について)
-5. [Q&A](#Q&A)
+3. [動画、配信等でのご利用について](動画、配信等でのご利用について)
+4. [改造・再配布(二次配布)を行う場合について](改造・再配布(二次配布)を行う場合について)
+5. [Q＆A](Q＆A)
 
 <!-- プロジェクト名を記載 -->
 
@@ -28,7 +27,7 @@ DTXMania → [Tjaplayer2fPC](https://github.com/kairera0467/TJAP2fPC) → Tjapla
 ## 注意事項
 ### ・このゲームを使用する場合は、全て自己責任でお願いします。
 ### ・常時60fpsを保てないPCでの動作は快適なプレイは期待できません。
-### ・バグなどは[自分のTwitter](Twitter.com/@NanTetu777)まで。
+### ・バグなどは[NanTetu777](https://x.com/NanTetu777)まで。
 
 
 ## 動画、配信等でのご利用について
@@ -93,5 +92,5 @@ v0.5.3.1からキャラクターおよびプチキャラはGlobalフォルダに
 > * [FROM/DTXMaina](https://github.com/DTXMania)(@DTXMania)
 > * [Kairera0467/TJAP2fPC](https://github.com/kairera0467/TJAP2fPC)(@Kairera0467)
 > * [touhourenren/TJAPlayer3-Develop-Rewrite](https://github.com/touhourenren)
->
-> ([OpenTaiiko](https://github.com/0auBSQ/OpenTaiko/tree/main)からの引用)
+
+([OpenTaiiko](https://github.com/0auBSQ/OpenTaiko/tree/main)からの引用)
