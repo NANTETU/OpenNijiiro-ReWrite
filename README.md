@@ -16,7 +16,9 @@
 <!-- プロジェクト名を記載 -->
 
 ## ソフトウェアについて
-このソフトはOpenNijiiroの自称改良版です。
+このソフトはOpenNijiiroの改良版です。
+
+OpenNijiiroよりも本家風になっていると思います。
 
 DTXMania → [Tjaplayer2fPC](https://github.com/kairera0467/TJAP2fPC) → Tjaplayer3 → Tjaplayer3-develop → 
 
@@ -27,7 +29,7 @@ DTXMania → [Tjaplayer2fPC](https://github.com/kairera0467/TJAP2fPC) → Tjapla
 
 ## 注意事項
 ### ・このゲームを使用する場合は、全て自己責任でお願いします。
-### ・常時60fpsを保てないPCでの動作は快適なプレイは期待できません。
+### ・常時60FPSを保てないPCでの動作は快適なプレイは期待できません。
 ### ・バグなどは[NanTetu777](https://x.com/NanTetu777)のDMまで。
 
 
