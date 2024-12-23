@@ -3,7 +3,7 @@
 ## <ins>作成者のSNS</ins>
 - YouTube : https://www.youtube.com/@なんてつ
 - Twitter : https://x.com/NanTetu777
-- Discord(雑談鯖) : 
+- Discord(雑談鯖) : https://discord.com/invite/96jY3bFbRK
 
 ## 目次
 
@@ -30,7 +30,8 @@ DTXMania → [Tjaplayer2fPC](https://github.com/kairera0467/TJAP2fPC) → Tjapla
 ## 注意事項
 ### ・このゲームを使用する場合は、全て自己責任でお願いします。
 ### ・常時60FPSを保てないPCでの動作は快適なプレイは期待できません。
-### ・バグなどは[NanTetu777](https://x.com/NanTetu777)のDMまで。
+### ・バグのサポートは基本しません。が、稀に修正するかもしれません。
+### ・もしこのソフトウェアで遊びたい場合、ご自身でビルドしてください。
 
 
 ## 動画、配信等でのご利用について
